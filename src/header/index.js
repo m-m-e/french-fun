@@ -1,8 +1,17 @@
 import React from 'react';
+import './styles.css';
 
 const Header = () => {
   return (
-    <header>I am the header! Put menu here</header>
+    <header className="header">
+      <nav className="header_menu">
+        <ul className="header_menu-list">
+          <li className="header_menu-item"><a href="#welcome">Home</a></li>
+          <li className="header_menu-item"><a href="#videos">Videos</a></li>
+          <li className="header_menu-item"><a href="#resources">Resources</a></li>
+        </ul>
+      </nav>
+    </header>
   );
 };
 

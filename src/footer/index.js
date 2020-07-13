@@ -1,8 +1,13 @@
 import React from 'react';
+import './styles.css';
 
 const Footer = () => {
   return (
-      <footer>I am the footer! Put 'return to top' button here</footer>
+      <footer className="footer">
+        <p>Thanks for visiting Reuben's French Site!</p>
+        <p>Made with love by <a target="_blank" rel="noopener noreferrer" href="https://github.com/m-m-e">m-m-e</a></p>
+        <span><a href="#welcome">Top of page</a></span>
+      </footer>
   );
 }
 
