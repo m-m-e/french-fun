@@ -1,0 +1,14 @@
+@import '../stylesheets/variables';
+
+.videos-container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.video {
+  width:640px;
+  height: 360px;
+  margin: auto;
+}

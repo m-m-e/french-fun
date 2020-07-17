@@ -1,0 +1,29 @@
+@import '../stylesheets/variables';
+
+.home { 
+  background: $colorSkyBlue;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.main_content {
+  padding: 0 20px;
+}
+
+.main_content section {
+  min-height: calc(100vh - 100px);
+}
+
+.main_title {
+  text-align: center;
+  font-size: $fontSizeExtraLarge;
+}
+
+.main_subtitle {
+  text-align: center;
+  font-size: $fontSizeLarge;
+}
+
+.welcome-content {
+  font-size: $fontSizeMedium;
+}
