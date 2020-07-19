@@ -1,0 +1,15 @@
+@import '../../stylesheets/variables';
+
+.footer {
+  height: 50px;
+  padding: 10px;
+  font-size: $fontSizeSmall;
+  background: $colorSalmon;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home-icon {
+  width: 36px;
+}

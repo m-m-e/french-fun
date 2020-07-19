@@ -1,0 +1,8 @@
+@import '../../stylesheets/variables';
+
+.not-found {
+  p {
+    font-size: $fontSizeMedium;
+  }
+  text-align: center;
+}

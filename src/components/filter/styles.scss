@@ -1,0 +1,32 @@
+@import '../../stylesheets/variables';
+
+.filters {
+  font-size: $fontSizeSmall;
+  font-family: $fontQuicksand;
+}
+
+.form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.button {
+  cursor: pointer;
+  font-size: $fontSizeExtraSmall;
+  font-family: $fontQuicksand;
+  font-weight: bold;
+  width: 150px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 2px solid $colorEggplant;
+}
+
+.button-submit {
+  background-color: $colorCleanBlue;
+}
+
+.button-reset {
+  background-color: $colorSalmon;
+}

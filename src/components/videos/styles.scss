@@ -1,0 +1,33 @@
+@import '../../stylesheets/variables';
+
+.videos-container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  font-family: $fontQuicksand;
+}
+
+.video {
+  margin-top: 50px;
+}
+
+.video-player {
+  width:640px;
+  height: 360px;
+  margin: auto;
+}
+
+.tags-list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin: 20px auto;
+
+  li {
+    font-style: italic;
+  }
+}

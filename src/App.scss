@@ -4,3 +4,9 @@ body {
   margin: 0;
   font-family: $fontIndie;
 }
+
+.main_content section {
+  min-height: calc(100vh - 200px);
+  background: $colorButter;
+  padding: 20px;
+}

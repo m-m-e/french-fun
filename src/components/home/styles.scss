@@ -1,0 +1,40 @@
+@import '../../stylesheets/variables';
+
+.main_title {
+  text-align: center;
+  font-size: $fontSizeExtraLarge;
+}
+
+.main_subtitle {
+  text-align: center;
+  font-size: $fontSizeLarge;
+}
+
+.welcome-content {
+  font-size: $fontSizeMedium;
+  text-align: center;
+
+}
+
+.maps {
+  position: relative;
+  color: $colorEggplant;
+  
+  img {
+    height: 600px;
+  }
+
+  .nottingham {
+    font-weight: bold;
+    position: absolute;
+    top: 25%;
+    left: 55%;
+  }
+
+  .arrow {
+    font-size: $fontSizeGiant;
+    position: absolute;
+    bottom: 15%;
+    left: 25%;
+  }
+}
