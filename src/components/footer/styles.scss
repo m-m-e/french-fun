@@ -8,6 +8,10 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  
+  @media all and (max-width:320px) {
+    font-size: $fontSizeExtraSmall;
+  }
 }
 
 .home-icon {

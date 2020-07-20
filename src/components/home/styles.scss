@@ -13,7 +13,6 @@
 .welcome-content {
   font-size: $fontSizeMedium;
   text-align: center;
-
 }
 
 .maps {
@@ -36,5 +35,19 @@
     position: absolute;
     bottom: 15%;
     left: 25%;
+  }
+}
+
+@media all and (max-width:320px) {
+  .main_title {
+    font-size: $fontSizeLarge;
+  }
+
+  .main_subtitle {
+    font-size: $fontSizeMedium;
+  }
+
+  .welcome-content {
+    font-size: $fontSizeSmall;
   }
 }

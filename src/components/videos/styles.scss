@@ -31,3 +31,18 @@
     font-style: italic;
   }
 }
+
+@media all and (max-width:768px) {
+  .videos-container {
+    grid-template-columns: 1fr;
+  }
+
+  .video {
+    margin-top: 0;
+  }
+  
+  .video-player {
+    width: 280px;
+    height: 154px;
+  }
+}
