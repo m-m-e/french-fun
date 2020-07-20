@@ -62,5 +62,61 @@ export const videosList = [
       "type": "lesson",
       "tags": ["animals", "actions", "sounds", "silly"],
       "creator": "Meg"
+    },
+    {
+      "id": 8,
+      "title": "Food 1",
+      "src": "https://www.youtube.com/embed/NN3bFhKOaEw",
+      "type": "lesson",
+      "tags": ["food", "numbers", "counting"],
+      "creator": "Nana"
+    },
+    {
+      "id": 9,
+      "title": "Food 2",
+      "src": "https://www.youtube.com/embed/kgGFCw1JSEM",
+      "type": "lesson",
+      "tags": ["food", "numbers", "counting"],
+      "creator": "Nana"
+    },
+    {
+      "id": 10,
+      "title": "Food 3",
+      "src": "https://www.youtube.com/embed/kN_PaAQCrqU",
+      "type": "lesson",
+      "tags": ["food", "numbers", "counting"],
+      "creator": "Nana"
+    },
+    {
+      "id": 11,
+      "title": "Food 4",
+      "src": "https://www.youtube.com/embed/QMwxLANNZdo",
+      "type": "lesson",
+      "tags": ["food", "numbers", "counting"],
+      "creator": "Nana"
+    },
+    {
+      "id": 12,
+      "title": "Food 5",
+      "src": "https://www.youtube.com/embed/1dMbka5l6xk",
+      "type": "lesson",
+      "tags": ["food", "numbers", "counting"],
+      "creator": "Nana"
+    },
+    {
+      "id": 13,
+      "title": "Dans la jungle",
+      "src": "https://www.youtube.com/embed/vw8E5yJo5TY",
+      "type": "story",
+      "tags": ["animals"],
+      "creator": "Valérie"
+    },
+    {
+      "id": 14,
+      "title": "Le soleil et la lune",
+      "src": "https://www.youtube.com/embed/2zaQHc0m0gM",
+      "type": "story",
+      "tags": ["animals"],
+      "creator": "Valérie"
     }
   ];

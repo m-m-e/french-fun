@@ -13,6 +13,22 @@
 .welcome-content {
   font-size: $fontSizeMedium;
   text-align: center;
+  position: relative;
+}
+
+.smiley {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  cursor: pointer;
+}
+
+.secret-message {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: $colorEggplant;
+  font-weight: bold;
 }
 
 .maps {
@@ -49,5 +65,10 @@
 
   .welcome-content {
     font-size: $fontSizeSmall;
+  }
+
+  .smiley {
+    top: 5%;
+    left: 10%;
   }
 }
