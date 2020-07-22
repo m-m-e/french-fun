@@ -5,7 +5,7 @@ export const videosList = [
       "src": "https://www.youtube.com/embed/I2ySRLDewVM",
       "type": "song",
       "tags": ["numbers"],
-      "creator": "Meg"
+      "creator": "Aunty Meg"
     },
     {
       "id": 1,
@@ -13,7 +13,7 @@ export const videosList = [
       "src": "https://www.youtube.com/embed/eKkwdc2YZY8",
       "type": "song",
       "tags": ["greetings", "actions"],
-      "creator": "Meg"
+      "creator": "Aunty Meg"
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@ export const videosList = [
       "src": "https://www.youtube.com/embed/kwqsOy9hS2U",
       "type": "song",
       "tags": ["actions"],
-      "creator": "Meg"
+      "creator": "Aunty Meg"
     },
     {
       "id": 3,
@@ -29,7 +29,7 @@ export const videosList = [
       "src": "https://www.youtube.com/embed/388iv0rOzpI",
       "type": "lesson",
       "tags": ["numbers", "counting"],
-      "creator": "Meg"
+      "creator": "Aunty Meg"
     },
     {
       "id": 4,
@@ -37,7 +37,7 @@ export const videosList = [
       "src": "https://www.youtube.com/embed/9zCj876X4yU",
       "type": "song",
       "tags": ["body parts"],
-      "creator": "Meg"
+      "creator": "Aunty Meg"
     },
     {
       "id": 5,
@@ -45,7 +45,7 @@ export const videosList = [
       "src": "https://www.youtube.com/embed/Ww8mF6Gbf5A",
       "type": "lesson",
       "tags": ["body parts"],
-      "creator": "Meg"
+      "creator": "Aunty Meg"
     },
     {
       "id": 6,
@@ -53,7 +53,7 @@ export const videosList = [
       "src": "https://www.youtube.com/embed/bTKXao2pqRY",
       "type": "song",
       "tags": ["body parts", "actions"],
-      "creator": "Meg"
+      "creator": "Aunty Meg"
     },
     {
       "id": 7,
@@ -61,7 +61,7 @@ export const videosList = [
       "src": "https://www.youtube.com/embed/oEx0s_17R5A",
       "type": "lesson",
       "tags": ["animals", "actions", "sounds", "silly"],
-      "creator": "Meg"
+      "creator": "Aunty Meg"
     },
     {
       "id": 8,
@@ -109,14 +109,38 @@ export const videosList = [
       "src": "https://www.youtube.com/embed/vw8E5yJo5TY",
       "type": "story",
       "tags": ["animals"],
-      "creator": "Valérie"
+      "creator": "Mamili"
     },
     {
       "id": 14,
       "title": "Le soleil et la lune",
       "src": "https://www.youtube.com/embed/2zaQHc0m0gM",
       "type": "story",
-      "tags": ["animals"],
-      "creator": "Valérie"
+      "tags": ["bedtime", "weather"],
+      "creator": "Mamili"
+    },
+    {
+      "id": 15,
+      "title": "The rainbow song",
+      "src": "https://www.youtube.com/embed/fo1D-B8aPqY",
+      "type": "song",
+      "tags": ["colours"],
+      "creator": "Nana"
+    },
+    {
+      "id": 16,
+      "title": "Leo et Popi",
+      "src": "https://www.youtube.com/embed/POHEXIT-Bfc",
+      "type": "story",
+      "tags": ["friends", "animals", "family"],
+      "creator": "Mamili"
+    },
+    {
+      "id": 17,
+      "title": "Papa est content",
+      "src": "https://www.youtube.com/embed/0SXZDtFgQDg",
+      "type": "story",
+      "tags": ["family", "feelings"],
+      "creator": "Mamili"
     }
   ];

@@ -1,0 +1,41 @@
+@import '../../stylesheets/variables';
+
+.resources_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  text-align: center;
+  font-size: $fontSizeSmall;
+}
+
+.resources_list li {
+  margin: auto;
+  padding: 10px;
+  width: 50%;
+  height: 250px;
+  cursor: pointer;
+  background: $colorSalmon;
+  border: 2px solid $colorEggplant;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &:hover {
+    box-shadow: 5px 5px 5px $colorEggplantDark;
+  }
+}
+
+@media all and (max-width:320px) {
+  .resources_list {
+    grid-template-columns: 1fr;
+  }
+
+  .resources_list li {
+    height: 200px;
+    width: 75%;
+  }
+}

@@ -7,7 +7,7 @@ class Home extends Component {
   constructor(props){
     super(props);
     this.state = { showMessage: false };
-    this.openMessage = () => this.setState({showMessage: true})
+    this.openMessage = () => this.setState({showMessage: !this.state.showMessage})
   }
 
   render() {

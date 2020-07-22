@@ -8,7 +8,10 @@ const Filter = ({
   handleReset,
   handleCreatorSearch,
   creators,
-  creatorSearch
+  creatorSearch,
+  handleTypeSearch,
+  typeSearch,
+  types
 })=> {
   return (
     <div className="filters">
@@ -20,9 +23,18 @@ const Filter = ({
         </div>
         
         <div className="input-wrapper">
-          <label htmlFor="search-creator">Or search by creator: </label>
+          <label htmlFor="search-creator">Search by creator: </label>
           <select name="creators" id="search-creator" onChange={handleCreatorSearch} value={creatorSearch}>
+            <option value="">Choose one</option>
             {creators.map((name, i) => <option key={i} value={name}>{name}</option>)}
+          </select>
+        </div>
+
+        <div className="input-wrapper">
+          <label htmlFor="search-type">Or search by type: </label>
+          <select name="types" id="search-type" onChange={handleTypeSearch} value={typeSearch}>
+            <option value="">Choose one</option>
+            {types.map((type, i) => <option key={i} value={type}>{type}</option>)}
           </select>
         </div>
 

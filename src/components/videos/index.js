@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './styles.scss';
-import {videosList} from '../../data/videos';
+import { videosList } from '../../data/videos';
 import Filter from '../filter';
 
 class Videos extends Component {
@@ -11,7 +11,9 @@ class Videos extends Component {
       videos: videosList,
       tagSearch: '',
       creatorSearch: '',
+      typeSearch: '',
       listIsFiltered: false,
+      types: ["song", "story", "lesson"],
       creators: videosList ? [...new Set(videosList.map(video => video.creator))] : []
     };
 
@@ -29,10 +31,16 @@ class Videos extends Component {
       });
     };
 
+    this.handleTypeSearch = e => {
+      this.setState({
+        typeSearch: e.currentTarget.value,
+      });
+    };
+
     this.handleSearch = e => {
-      const { tagSearch, creatorSearch } = this.state;
+      const { tagSearch, creatorSearch, typeSearch } = this.state;
       e.preventDefault();
-      this.filterVideos(tagSearch, creatorSearch);
+      this.filterVideos(tagSearch, creatorSearch, typeSearch);
       this.setState({
         listIsFiltered: true
       });
@@ -44,14 +52,14 @@ class Videos extends Component {
     };
   };
 
-  filterVideos(tag, creator) {
-    const filteredVideos = this.initialState.videos.filter(video => video.tags.includes(tag) || video.creator === creator);
+  filterVideos(tag, creator, type) {
+    const filteredVideos = this.initialState.videos.filter(video => video.tags.includes(tag) || video.creator === creator || video.type === type);
     this.setState({ videos: filteredVideos });
   }
 
   render() {
-    const { videos, tagSearch, creatorSearch, creators } = this.state;
-    const { handleTagSearch, handleSearch, handleReset, handleCreatorSearch } = this;
+    const { videos, tagSearch, creatorSearch, creators, typeSearch, types } = this.state;
+    const { handleTagSearch, handleSearch, handleReset, handleCreatorSearch, handleTypeSearch } = this;
     return (
       <section>
         <h2 className="main_subtitle">Videos</h2>
@@ -63,6 +71,9 @@ class Videos extends Component {
           handleReset={handleReset}
           creatorSearch={creatorSearch}
           creators={creators}
+          handleTypeSearch={handleTypeSearch}
+          typeSearch={typeSearch}
+          types={types}
         />
         <div className="videos-container">
           {videos.length ? videos.map(video => video.src && (

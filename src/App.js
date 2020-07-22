@@ -4,12 +4,11 @@ import Home from './components/home';
 import Header from './components/header';
 import Footer from './components/footer';
 import Videos from './components/videos';
+import Resources from './components/resources';
 import NotFound from './components/notFound';
 import './App.scss';
 
-const Resources = () => (<section id="resources">
-<h2 className="main_subtitle">Resources</h2>
-</section>)
+
 
 const App = () => {
   return (
