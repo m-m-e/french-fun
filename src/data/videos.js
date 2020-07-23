@@ -149,7 +149,7 @@ export const videosList = [
       "src": "https://www.youtube.com/embed/00-0k7Q13zk",
       "type": "song",
       "tags": ["counting"],
-      "creator": "Tata and Tati"
+      "creator": "Tata and Tatie"
     },
     {
       "id": 19,
@@ -157,7 +157,7 @@ export const videosList = [
       "src": "https://www.youtube.com/embed/uKoAs50Y42Y",
       "type": "song",
       "tags": ["round"],
-      "creator": "Tata, Tati and Mamili"
+      "creator": "Tata, Tatie and Mamili"
     },
     {
       "id": 20,
@@ -165,7 +165,7 @@ export const videosList = [
       "src": "https://www.youtube.com/embed/faYLU4JusuQ",
       "type": "song",
       "tags": ["fish", "actions"],
-      "creator": "Tata, Tati and Mamili"
+      "creator": "Tata, Tatie and Mamili"
     },
     {
       "id": 21,
@@ -173,7 +173,7 @@ export const videosList = [
       "src": "https://www.youtube.com/embed/XHb0X0No-5M",
       "type": "song",
       "tags": ["windmill", "actions"],
-      "creator": "Tata, Tati and Mamili"
+      "creator": "Tata, Tatie and Mamili"
     },
     {
       "id": 22,
