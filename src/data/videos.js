@@ -142,5 +142,53 @@ export const videosList = [
       "type": "story",
       "tags": ["family", "feelings"],
       "creator": "Mamili"
+    },
+    {
+      "id": 18,
+      "title": "1,2,3 nous irons au bois",
+      "src": "https://www.youtube.com/embed/00-0k7Q13zk",
+      "type": "song",
+      "tags": ["counting"],
+      "creator": "Tata and Tati"
+    },
+    {
+      "id": 19,
+      "title": "Frère Jacques",
+      "src": "https://www.youtube.com/embed/uKoAs50Y42Y",
+      "type": "song",
+      "tags": ["round"],
+      "creator": "Tata, Tati and Mamili"
+    },
+    {
+      "id": 20,
+      "title": "Les petits poissons",
+      "src": "https://www.youtube.com/embed/faYLU4JusuQ",
+      "type": "song",
+      "tags": ["fish", "actions"],
+      "creator": "Tata, Tati and Mamili"
+    },
+    {
+      "id": 21,
+      "title": "Meunier, tu dors?",
+      "src": "https://www.youtube.com/embed/XHb0X0No-5M",
+      "type": "song",
+      "tags": ["windmill", "actions"],
+      "creator": "Tata, Tati and Mamili"
+    },
+    {
+      "id": 22,
+      "title": "Une souris verte",
+      "src": "https://www.youtube.com/embed/jZ_5YN2w0qc",
+      "type": "song",
+      "tags": ["mouse", "colours"],
+      "creator": "Tata"
+    },
+    {
+      "id": 23,
+      "title": "Coccinelle demoiselle",
+      "src": "https://www.youtube.com/embed/ETmNd2OxkI0",
+      "type": "song",
+      "tags": ["colours"],
+      "creator": "Tata and Mamili"
     }
   ];

@@ -11,7 +11,8 @@ const Filter = ({
   creatorSearch,
   handleTypeSearch,
   typeSearch,
-  types
+  types,
+  tags
 })=> {
   return (
     <div className="filters">
@@ -19,7 +20,10 @@ const Filter = ({
       <form className="form">
         <div className="input-wrapper">
           <label htmlFor="search-tag">Search by video tag: </label>
-          <input type="text" onChange={handleTagSearch} value={tagSearch} id="searchTag"/>
+          <select name="tags" id="search-tag" onChange={handleTagSearch} value={tagSearch}>
+            <option value="">Choose one</option>
+            {tags.map((tag, i) => <option key={i} value={tag}>{tag}</option>)}
+          </select>
         </div>
         
         <div className="input-wrapper">

@@ -14,7 +14,8 @@ class Videos extends Component {
       typeSearch: '',
       listIsFiltered: false,
       types: ["song", "story", "lesson"],
-      creators: videosList ? [...new Set(videosList.map(video => video.creator))] : []
+      creators: videosList ? [...new Set(videosList.map(video => video.creator))] : [],
+      tags: videosList ? [...new Set(videosList.flatMap(video => video.tags))] : []
     };
 
     this.state = this.initialState;
@@ -58,7 +59,7 @@ class Videos extends Component {
   }
 
   render() {
-    const { videos, tagSearch, creatorSearch, creators, typeSearch, types } = this.state;
+    const { videos, tagSearch, creatorSearch, creators, typeSearch, types, tags } = this.state;
     const { handleTagSearch, handleSearch, handleReset, handleCreatorSearch, handleTypeSearch } = this;
     return (
       <section>
@@ -74,6 +75,7 @@ class Videos extends Component {
           handleTypeSearch={handleTypeSearch}
           typeSearch={typeSearch}
           types={types}
+          tags={tags}
         />
         <div className="videos-container">
           {videos.length ? videos.map(video => video.src && (
